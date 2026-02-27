@@ -4,6 +4,9 @@
 *.nc.tar.gz
 *.nc.1
 
+# Allow processed decadal grids (small enough for git)
+!decadal_grids/*.nc
+
 # Python virtual environment
 .venv/
 __pycache__/
