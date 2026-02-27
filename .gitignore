@@ -1,0 +1,17 @@
+# Large NetCDF data files
+*.nc
+*.nc.gz
+*.nc.tar.gz
+*.nc.1
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
